@@ -44,7 +44,7 @@ def handle(msg):
         doit(chat_id)
     
 
-bot = telepot.Bot('561656143:AAHgRZbnnW4jDiYartSXCeYOtsC6EI9Z-ig')
+bot = telepot.Bot('')
 
 MessageLoop(bot, handle).run_as_thread()
 print ('I am listening ...')
